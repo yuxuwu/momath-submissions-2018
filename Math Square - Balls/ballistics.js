@@ -507,7 +507,7 @@ pb.draw = function (floor, p) {
 };
 
 export const behavior = {
-  title: "Balls",
+  title: "Ballistics",
   init: pb.init.bind(pb),
   frameRate: 30,
   render: pb.render.bind(pb),

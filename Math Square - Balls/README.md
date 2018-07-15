@@ -1,4 +1,4 @@
-# MoMath Hackathon 2018: Math Square - Balls
+# MoMath Hackathon 2018: Math Square - Ballistics
 
 - Project category: _Math Square behavior_
 - Team members: _Yu Xuan Wu_
