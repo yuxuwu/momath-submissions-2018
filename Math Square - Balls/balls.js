@@ -207,22 +207,22 @@ var ballTypes = {
   },
   1 : {
     weight: 8,
-    radius: 33,
+    radius: 25,
     color: "#FFD4CA"
   },
   2 : {
     weight: 10,
-    radius: 40,
+    radius: 30,
     color: "#AAC0AF"
   },
   3 : {
     weight: 12,
-    radius: 53,
+    radius: 35,
     color: "#839791"
   },
   4 : {
     weight: 14,
-    radius: 60,
+    radius: 40,
     color: "#896978"
   }
 };
@@ -244,7 +244,7 @@ function shoot() {
   );
   //console.log(ballTypes[ball_num].color);
   //ball.radius = ballTypes[ball_num].radius;
-  ball.radius = 20;
+  ball.radius = ballTypes[ball_num].radius;
   ball.velocity.setAngle(cannon.angle);
   Balls.push(ball);
   ball_num++;
